@@ -16,17 +16,17 @@ void setup()
 
 void loop()
 {
-    led.start();
+    led.begin();
     led.setColor(255, 0, 0);
     led.end();
     delay(500);
     
-    led.start();
+    led.begin();
     led.setColor(0, 255, 0);
     led.end();
     delay(500);
     
-    led.start();
+    led.begin();
     led.setColor(0, 0, 255);
     led.end();
     delay(500);
